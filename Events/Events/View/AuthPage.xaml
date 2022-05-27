@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Events.View.AuthPage" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout BackgroundColor="White">
+        <StackLayout WidthRequest="180">
+            <Image Source="Authlogo.png"/>
+            <Frame WidthRequest="320">
+                <Entry Placeholder="Login" PlaceholderColor="Black" />
+            </Frame>
+            <Frame>
+                <Entry Placeholder="Password" IsPassword="True" PlaceholderColor="Black" WidthRequest="320"/>
+            </Frame>
+            <Button x:Name="SignInBtn" Text="SIGN IN" BackgroundColor="Black" TextColor="White" />
+            <Button x:Name="SignUpBtn" Text="SIGN UP" BackgroundColor="#5E5E5E" TextColor="White" WidthRequest="160" Clicked="SignUpBtn_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

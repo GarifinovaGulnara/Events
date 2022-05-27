@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Events.View.RegistrationPage" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <Entry Placeholder="Login" PlaceholderColor="Black"/>
+        <Entry Placeholder="Password" PlaceholderColor="Black"/>
+        <Entry Placeholder="Full Name" PlaceholderColor="Black"/>
+        <Entry Placeholder="Date Of Birth" PlaceholderColor="Black"/>
+        <Entry Placeholder="Phone" PlaceholderColor="Black"/>
+        <Button Text="REGISTER" BackgroundColor="Black" TextColor="White"/>
+    </StackLayout>
+</ContentPage>
